@@ -1,0 +1,377 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 101px;
+    border-bottom: 2px solid #DCDCDC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    .brand {
+        width: 450px;
+        height: 101px;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .logo {
+            img {
+                width: 55px;
+                height: 55px;
+            }
+        }
+
+        .navi {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+
+                li {
+                    padding: 10px;
+                    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    letter-spacing: 1.4px;
+                    line-height: 21px;
+
+                    &:hover {
+                        color: #00754A;
+                        transition: all 0s ease 0s;
+                    }
+                }
+            }
+        }
+    }
+    .login {
+        width: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .lok {
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .text {
+            font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            margin-left: -20px;
+
+            &:hover {
+                color: #00754A;
+                transition: all 0s ease 0s;
+            }
+        }
+
+        .btn1 {
+            width: 79px;
+            height: 33px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 33px;
+            border-radius: 50px;
+            font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(236, 235, 235);
+            }
+        }
+
+        .btn2 {
+            width: 94px;
+            height: 33px;
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 33px;
+            font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            margin-left: -20px;
+
+            &:hover {
+                background-color: rgb(43, 42, 42);
+            }
+        }
+    }
+}
+// end navbar
+// content1
+.container {
+    .content {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        margin: 29px 0;
+
+        .img {
+            img {
+                width: 683px;
+            }
+        }
+
+        .text {
+            width: 683px;
+            background-color: #D4E9E2;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                letter-spacing: -0.16px;
+                color: #1E3932;
+            }
+
+            p {
+                width: 488px;
+                height: 66px;
+                max-width: 876.923px;
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 19px;
+                letter-spacing: 1px;
+                line-height: 33px;
+                margin-top: 25px;
+                text-align: center;
+                color: #1E3932;
+            }
+
+            .btn {
+                p {
+                    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    width: 102px;
+                    height: 36px;
+                    border: 1px solid;
+                    border-radius: 50px;
+                    font-size: 15px;
+                    font-weight: 600;
+                    margin-top: 30px;
+                    text-align: center;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #b3cac2;
+                    }
+                }
+            }
+        }
+    }
+}
+// end content1
+// content2
+.content2 {
+    width: 100%;
+    height: 592px;
+    background-color: #D4E9E2;
+    margin-bottom: 30px;
+    cursor: default;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .left {
+        width: 683px;
+        height: 592px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h1 {
+            width: 480px;
+            font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 50px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: #1E3932;
+            margin-bottom: 30px;
+        }
+
+        p {
+            width: 489px;
+            height: 144px;
+            font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 24px;
+            color: #1E3932;
+            letter-spacing:  2px;
+            padding: 2px;
+            text-align: center;
+            display: block;
+            margin-bottom: 50px;
+        }
+        button {
+            height: 35.1875px;
+            width: 121px;
+            font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color:  #1E3932;
+            font-size: 16px;
+            font-weight: 600;
+            border: 1px solid  #1E3932;
+            background-color: #D4E9E2;
+            border-radius: 50px;
+            cursor: pointer;
+            &:hover {
+                background-color: #b3cac2;
+                transition: all 0.2s ease 0s;
+            }
+        }
+    }
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .gambar {
+            img {
+                width: 683px;
+                height: 592px;
+            }
+        }
+    }
+}
+// end content2
+// content 3
+.content3 {
+    width: 100%;
+    height: 600px;
+    background-color:  #006241;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    .left {
+        img {
+            width: 700px;
+            height: 592px;
+        }
+    }
+    .right {
+        .container {
+            cursor: default;
+            width: 488px;
+            height: 320px;
+            h1 {
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 50px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-align: center;
+                color:  #FFFF;
+            }
+            p {
+                
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                text-align: center;
+                letter-spacing: 1px;
+                color: #FFFF;
+                margin: 20px 0;
+                padding-bottom: 10px;
+            }
+            button {
+                display: block;
+                margin: auto;
+                cursor: pointer;
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                width: 115px;
+                height: 35px;
+                border: 1px solid  #FFFF;
+                background-color: transparent;
+                border-radius: 50px;
+                color: #FFFF;
+                &:hover {
+                    background-color: #0f7955;
+                    transition: all 0.2s ease 0s;
+                }
+            }
+        }
+    }
+}
+// end content3
+
+// content4
+.content4 {
+    width: 100%;
+    height: 600px;
+    background-color:  #006241;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    .left {
+        .container {
+            cursor: default;
+            width: 488px;
+            height: 320px;
+            margin-left: 100px;
+            margin-top: 50px;
+            h1 {
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 50px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-align: center;
+                color:  #FFFF;
+            }
+            p {
+                
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                text-align: center;
+                letter-spacing: 1px;
+                color: #FFFF;
+                margin: 30px 0;
+                padding-bottom: 10px;
+            }
+            button {
+                display: block;
+                margin: auto;
+                cursor: pointer;
+                font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                width: 115px;
+                height: 35px;
+                border: 1px solid  #FFFF;
+                background-color: transparent;
+                border-radius: 50px;
+                color: #FFFF;
+                &:hover {
+                    background-color: #0f7955;
+                    transition: all 0.2s ease 0s;
+                }
+            }
+        }
+    }
+
+    .right {
+        img {
+            width: 650px;
+            height: 592px;
+        }
+    }
+}
